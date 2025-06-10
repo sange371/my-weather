@@ -1,0 +1,67 @@
+.container{
+    background: whitesmoke;
+    display:block;
+    margin:80px auto;
+    border:1px solid whitesmoke;
+    height:293px;
+    width:510px;
+    padding:15px;
+    opacity:0.9;
+    border-radius:4px;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    background-size: cover;
+    
+}
+hr{
+    border: 1px solid rgb(233, 228, 228);
+}
+.humidity{
+    color:rgb(160,59,175);
+}
+.wind-speed{
+    color:rgb(160,59,175);
+}
+#city-name-input{
+    padding:10px;
+    width:350px;
+    border:1px solid transparent;
+    background: rgb(223, 221, 221);
+    border:2px;
+    margin-bottom: 15px;
+}
+.submit-button{
+    font-size:16px;
+    padding:7px;
+    background:rgb(0,155,226) ;
+    border:1px solid rgb(0,155,226);
+    border-radius: 4px;
+    color:white;
+}
+.icon{
+    position:relative;
+    top:-85px;
+    left:375px;
+    font-size:30px;
+
+}
+.temperature{
+    position:relative;
+    top:-100px;
+    left:370px;
+    font-size:50px;
+}
+.degree{
+    position:relative;
+    top:-120px;
+    left:370px;
+}
+.coder{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+
+}
